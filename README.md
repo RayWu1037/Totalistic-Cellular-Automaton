@@ -31,17 +31,20 @@ arrays, loops, and working with simple simulation rules.
 git clone https://github.com/RayWu1037/Totalistic-Cellular-Automaton.git
 cd Totalistic-Cellular-Automaton
 cd "project-1-Totalistic Cellular Automaton (Coding in C A Total Cell-ebration!)"
+**
 
 ### 2. Compile the program
+```bash
 gcc -std=c11 -Wall -Wextra -o demo main.c
-
+**
 
 On WSL/Linux this will create an executable called demo.
 On Windows it will create demo.exe.
 
 ### 3. Run the program
+```bash
 ./demo          # or: ./demo.exe on Windows
-
+**
 The program reads an initial pattern (for example from p01) and
 prints each generation of the cellular automaton to the terminal.
 
