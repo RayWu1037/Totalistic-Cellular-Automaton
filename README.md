@@ -39,6 +39,7 @@ gcc -std=c11 -Wall -Wextra -o demo main.c
 ```
 
 On WSL/Linux this will create an executable called demo.
+
 On Windows it will create demo.exe.
 
 ### 3. Run the program
@@ -46,19 +47,21 @@ On Windows it will create demo.exe.
 ./demo          # or: ./demo.exe on Windows
 ```
 The program reads an initial pattern (for example from p01) and
+
 prints each generation of the cellular automaton to the terminal.
 
 ## Example Usage
 
 A typical run looks like this:
 
-The program loads the starting pattern.
+1. The program loads the starting pattern.
 
-It applies the totalistic rule to compute the next generation.
+2. It applies the totalistic rule to compute the next generation.
 
-Each generation is printed, row by row, so you can see the pattern evolve over time.
+3. Each generation is printed, row by row, so you can see the pattern evolve over time.
 
 You can modify the starting pattern or the rule in the source code (or input file)
+
 to see different behaviors.
 
 ## Project Structure
@@ -74,6 +77,7 @@ README.md – This file
 ## Video Demo
 
 I recorded a short demo video with audio narration that shows how to
+
 open the GitHub repository, compile the program in WSL, and run the simulation.
 
 ### Watch the demo video here:
