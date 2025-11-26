@@ -31,3 +31,36 @@ arrays, loops, and working with simple simulation rules.
 git clone https://github.com/RayWu1037/Totalistic-Cellular-Automaton.git
 cd Totalistic-Cellular-Automaton
 cd "project-1-Totalistic Cellular Automaton (Coding in C A Total Cell-ebration!)"
+
+2. Compile the program
+gcc -std=c11 -Wall -Wextra -o demo main.c
+
+
+On WSL/Linux this will create an executable called demo.
+On Windows it will create demo.exe.
+
+3. Run the program
+./demo          # or: ./demo.exe on Windows
+
+The program reads an initial pattern (for example from p01) and
+prints each generation of the cellular automaton to the terminal.
+
+A typical run looks like this:
+
+The program loads the starting pattern.
+It applies the totalistic rule to compute the next generation.
+Each generation is printed, row by row, so you can see the pattern evolve over time.
+
+You can modify the starting pattern or the rule in the source code (or input file)
+to see different behaviors.
+
+main.c – Main C source file that runs the simulation
+p01 – Example input file with an initial pattern or rule data
+demo / demo.exe – Compiled executable
+README.md – This file
+
+I recorded a short demo video with audio narration that shows how to
+open the GitHub repository, compile the program in WSL, and run the simulation.
+
+Watch the demo video here:
+https://drive.google.com/file/d/1kLKn8tw__KXdV5yaxn0sUoE4WFo_k-pI/view?usp=drive_link
